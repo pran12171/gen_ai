@@ -1,0 +1,40 @@
+WEEK 3 – LLM MONITORING WITH MONGODB
+
+Aim:
+To extend the LLM client developed in Week 2 by tracking token usage, response time and estimated API cost, and storing the details in MongoDB.
+
+What I Did:
+1. Created a MongoDB Atlas database.
+2. Generated a Gemini API key.
+3. Configured MongoDB connection details in the .env file.
+4. Created a usage logger to store LLM request details.
+5. Tracked input and output token usage.
+6. Measured response latency.
+7. Calculated estimated API costs.
+8. Stored successful and failed request details in MongoDB.
+9. Implemented request timeouts and retry handling.
+10. Tested the LLM client using Python unittest.
+11. Integrated Gemini and Ollama with MongoDB monitoring.
+
+Technologies Used:
+Python, Gemini API, Ollama, Llama 3.2, MongoDB Atlas, PyMongo, Requests and Python-dotenv.
+
+Files:
+- .env
+- main.py
+- llm_client.py
+- usage_logger.py
+- test_client.py
+- requirements.txt
+
+Execution:
+python -m pip install -r requirements.txt
+
+To run tests:
+python -m unittest test_client.py
+
+To run the application:
+python main.py
+
+Result:
+Successfully implemented LLM monitoring using MongoDB to track token usage, response latency, estimated API costs and request status for both Gemini and Ollama.

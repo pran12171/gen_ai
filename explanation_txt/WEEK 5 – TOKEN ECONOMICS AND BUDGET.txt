@@ -1,0 +1,34 @@
+WEEK 5 – TOKEN ECONOMICS AND BUDGETING
+
+Aim:
+To calculate token usage, estimate API costs and check whether an LLM application fits within the given budget and rate limits.
+
+What I Did:
+1. Created a separate Python virtual environment.
+2. Created a .env file to store configuration values.
+3. Installed the required libraries.
+4. Developed a Python-based budget calculator.
+5. Calculated daily and monthly token usage.
+6. Estimated input and output API costs.
+7. Checked RPM (Requests Per Minute) and TPM (Tokens Per Minute).
+8. Added a safety margin to the calculations.
+9. Created automated tests using unittest.
+10. Performed different budget and usage checks.
+
+Technologies Used:
+Python, Python-dotenv, Unittest and VS Code.
+
+Files:
+- .env
+- budget.py
+- test_budget.py
+- requirements.txt
+
+Execution:
+python budget.py
+
+To run tests:
+python -m unittest test_budget.py -v
+
+Result:
+Successfully developed a token budgeting tool to estimate API costs and check rate limits. All four automated tests passed successfully.

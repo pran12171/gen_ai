@@ -1,0 +1,28 @@
+WEEK 1 – FIRST LLM API CALL
+
+Aim:
+To connect a Python application with a Large Language Model using an API and generate responses from user prompts.
+
+What I Did:
+1. Set up the Python project in VS Code.
+2. Created a .env file to store the API key securely.
+3. Installed the required Python libraries.
+4. Used the OpenAI Python SDK to connect with an LLM.
+5. Implemented an API call using a Python program.
+6. Generated responses from the model using different prompts.
+7. Learned how to handle API keys and common API errors.
+
+Technologies Used:
+Python, OpenAI API, Gemini API, Python-dotenv and VS Code.
+
+Files:
+- main.py
+- .env
+- .gitignore
+- requirements.txt
+
+Execution:
+python main.py
+
+Result:
+Successfully connected a Python application to an LLM API and generated responses using different prompts.

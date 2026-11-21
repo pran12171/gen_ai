@@ -1,0 +1,34 @@
+WEEK 2 – PROVIDER AGNOSTIC LLM CLIENT
+
+Aim:
+To build a common LLM client that supports both cloud-based Gemini API and a locally running Ollama model.
+
+What I Did:
+1. Installed and configured Ollama.
+2. Downloaded the Llama 3.2 model.
+3. Created a common LLM provider interface.
+4. Implemented Gemini as a cloud-based provider.
+5. Implemented Ollama as a local provider.
+6. Created a common LLM client to handle both providers.
+7. Added an option to select the provider.
+8. Created a test program using a fake provider.
+9. Tested the client using Python unittest.
+
+Technologies Used:
+Python, Gemini API, Ollama, Llama 3.2, Requests, Python-dotenv and VS Code.
+
+Files:
+- .env
+- llm_client.py
+- main.py
+- test_client.py
+- requirements.txt
+
+Execution:
+python main.py
+
+To run tests:
+python -m unittest test_client.py
+
+Result:
+Successfully developed a provider-agnostic LLM client that supports both Gemini cloud API and local Ollama models through a common interface.
